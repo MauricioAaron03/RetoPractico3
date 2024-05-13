@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "6ef0b824-afa8-4bf9-a248-6b85e08b9741",
+		"name": "RetoPractico3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23944957"
+	},
+	"item": [
+		{
+			"name": "AddProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "f259cb0a9275cd30f29b52f430f5284c",
+							"type": "text"
+						},
+						{
+							"key": "id_product",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id_customization",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "group[1]",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "group[2]",
+							"value": "11",
+							"type": "text"
+						},
+						{
+							"key": "add",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "action",
+							"value": "update",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://www.testingyes.com/onlineshop/cart",
+					"protocol": "http",
+					"host": [
+						"www",
+						"testingyes",
+						"com"
+					],
+					"path": [
+						"onlineshop",
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProduct",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "CatClothes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
