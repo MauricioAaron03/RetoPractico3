@@ -22,8 +22,7 @@ module.exports = defineConfig({
   videoCompression: false,            //The quality setting for the video compression, in Constant Rate Factor (CRF). 
 
   e2e: {
-    baseUrl: 'https://www.demoblaze.com',
-    
+  
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
     },
